@@ -64,3 +64,17 @@ body {
 .add-new-form-container button {
   margin-top: 15px;
 }
+
+/* search input */
+div.search-input {
+  width: 100%;
+  padding: 20px 15px;
+  margin-bottom: 20px;
+  background-color: #007bff;
+}
+
+div.search-input input {
+  border-radius: 6px;
+  width: 100%;
+  padding: 10px;
+}
