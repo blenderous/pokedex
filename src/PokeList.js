@@ -3,7 +3,7 @@ import { Pokemon } from './Pokemon';
 import SearchInput, {createFilter} from 'react-search-input';
 import pokeDex from './pokedex.json';
 
-const KEYS_TO_FILTERS = ['name.english', 'type', 'base.Attack', 'base.Defense']
+const KEYS_TO_FILTERS = ['name.english', 'type']
 
 export class PokeList extends React.Component {
 
