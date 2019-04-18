@@ -12,3 +12,55 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.modal .modal-dialog .modal-content {
+  padding: 10px;
+}
+
+ul.pokelist-container li .pokemon-container {
+  padding-bottom: 20px;
+}
+
+ul.pokelist-container li .pokemon-container p {
+  margin-bottom: 5px;
+}
+
+.modal-dialog.modal-sm form label {
+  width: 100%;
+}
+
+.modal-dialog.modal-sm form label::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.modal-dialog.modal-sm form input {
+  float: right;
+}
+
+/* add form */
+
+body {
+  position: relative;
+}
+
+.add-new-form-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 10px;
+}
+
+.add-new-form-container input, .add-new-form-container textarea, .add-new-form-container button {
+  width: 100%;
+}
+
+.add-new-form-container textarea {
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.add-new-form-container button {
+  margin-top: 15px;
+}
