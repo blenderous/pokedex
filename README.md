@@ -69,4 +69,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 ### Deployment with yarn
 ```yarn global add serve```
+
 ```serve -s build```
