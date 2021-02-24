@@ -16,7 +16,7 @@ export class Pokemon extends React.Component {
                     </div>
                 </div>
                 {/* edit modal */}
-                <div className={"modal fade bs-example-modal-sm-edit" + this.props.id} tabIndex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                {/* <div className={"modal fade bs-example-modal-sm-edit" + this.props.id} tabIndex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
                     <div className="modal-dialog modal-sm" role="document">
                         <div className="modal-content">
                             <h4>Edit {this.props.name}</h4>
@@ -42,7 +42,7 @@ export class Pokemon extends React.Component {
                             </form>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <div className="pokemon-container">
                     <p className="pokemon-name">
                         {this.props.name}
@@ -50,7 +50,7 @@ export class Pokemon extends React.Component {
                     {/* know more button */}
                     <button type="button" className="btn btn-primary" data-toggle="modal" data-target={".bs-example-modal-sm" + this.props.id}>Know more</button>
                     {/* edit button */}
-                    <button type="button" className="btn" data-toggle="modal" data-target={".bs-example-modal-sm-edit" + this.props.id}>Edit</button>
+                    {/* <button type="button" className="btn" data-toggle="modal" data-target={".bs-example-modal-sm-edit" + this.props.id}>Edit</button> */}
                 </div>
             </div>
         )
